@@ -70606,15 +70606,4 @@ ul li .dropdown {
   background-color: #ffa012 !important;
 }
 
-.description h3, .description .h3 {
-  font-family: firstFont;
-  color: #5f5950;
-}
-.description ul {
-  list-style: none;
-}
-.description p {
-  color: rgba(68, 68, 68, 0.7137254902);
-}
-
 /*# sourceMappingURL=app.css.map */
