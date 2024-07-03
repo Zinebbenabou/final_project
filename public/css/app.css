@@ -70560,6 +70560,14 @@ textarea.form-control-lg {
   font-family: firstFont;
   src: url(../../public/fonts/Satisfy-Regular.ttf);
 }
+@font-face {
+  font-family: regular;
+  src: url(../../public/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: tin;
+  src: url(../../publicf/onts/Poppins-thin.ttf);
+}
 nav {
   background-color: rgba(0, 0, 0, 0.3215686275) !important;
 }
@@ -70583,6 +70591,7 @@ h1 span, .h1 span {
 
 ul li a {
   color: #ffffff !important;
+  font-family: regular;
 }
 ul li .dropdown {
   color: white !important;
