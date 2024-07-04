@@ -38,47 +38,29 @@ h5
 
 .events
     background-image: url(../images/events-bg.jpg)
-    background-attachment: fixed
     height: 100vh
     background-position: cover
+    background-attachment: fixed
     background-size: 100%
-    margin-bottom: 10vh
+    background-repeat: no-repeat
+    position: relative
+    margin-bottom: 12vh
     &::before
         content: ""
         position: absolute
         height: 100%
         width: 100%
         top: 0
-        background: #000000
+        background: #0e0d0d
         opacity: 0.5
-        
-   
-    &::before
-        background-color: #000000
-
-.right-caro
-    p
-        color: #ffffff
-    ul
-        list-style: none
-        font-family: meduim 
-
-
-.org-caption
-    h3
-        font-family: firstFont
-        color: $orange
-    .price
-        span
-            
-            border-bottom: solid 2px $orange
-            border-bottom-width: 4px
-            font-family: bold
-    p
-        color: #ffff
-        font-family: medium 
-    ul
-       font-family: meduim 
-
-
-
+.row-events
+    align-items: center
+    display: flex
+    gap: 3vw
+    flex-direction: row
+    width: 90vw
+    color: #fff
+    span
+        font-weight: bold
+        font-size: 30px
+        color: #fff
