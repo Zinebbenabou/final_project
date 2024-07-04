@@ -70667,6 +70667,10 @@ textarea.form-control-lg {
   src: url(../../publicf/onts/Poppins-medium.ttf);
 }
 @font-face {
+  font-family: bold;
+  src: url(../../publicf/onts/Poppins-bold.ttf);
+}
+@font-face {
   font-family: comic;
   src: url(../../public/fonts/ComicNeue-Light.ttf);
 }
@@ -70751,6 +70755,10 @@ ul li .dropdown {
   color: #ffffff;
   border: solid 2px #ffa012;
 }
+.menu ul li button:focus {
+  background-color: #ffa012;
+  color: white;
+}
 
 .nav-link .nav-pills {
   background-color: #ffffff;
@@ -70772,10 +70780,57 @@ h5, .h5 {
 .special h3, .special .h3 {
   font-family: firstFont;
   color: text;
+  text-align: center;
 }
 .special p {
   font-family: meduim;
   color: text;
+}
+
+.events {
+  background-image: url(../images/events-bg.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-position: cover;
+  background-size: 100%;
+  margin-bottom: 10vh;
+}
+.events::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #000000;
+  opacity: 0.5;
+}
+.events::before {
+  background-color: #000000;
+}
+
+.right-caro p {
+  color: #ffffff;
+}
+.right-caro ul {
+  list-style: none;
+  font-family: meduim;
+}
+
+.org-caption h3, .org-caption .h3 {
+  font-family: firstFont;
+  color: #ffa012;
+}
+.org-caption .price span {
+  border-bottom: solid 2px #ffa012;
+  border-bottom-width: 4px;
+  font-family: bold;
+}
+.org-caption p {
+  color: white;
+  font-family: medium;
+}
+.org-caption ul {
+  font-family: meduim;
 }
 
 /*# sourceMappingURL=app.css.map */

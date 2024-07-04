@@ -8,6 +8,9 @@
                     background-color: $orange
                     color: #ffffff
                     border: solid 2px $orange
+                &:focus
+                    background-color: $orange
+                    color: white
 .nav-link .nav-pills
     background-color: #ffffff
 
@@ -32,4 +35,50 @@ h5
     p
         font-family: meduim 
         color: text
+
+.events
+    background-image: url(../images/events-bg.jpg)
+    background-attachment: fixed
+    height: 100vh
+    background-position: cover
+    background-size: 100%
+    margin-bottom: 10vh
+    &::before
+        content: ""
+        position: absolute
+        height: 100%
+        width: 100%
+        top: 0
+        background: #000000
+        opacity: 0.5
+        
+   
+    &::before
+        background-color: #000000
+
+.right-caro
+    p
+        color: #ffffff
+    ul
+        list-style: none
+        font-family: meduim 
+
+
+.org-caption
+    h3
+        font-family: firstFont
+        color: $orange
+    .price
+        span
+            
+            border-bottom: solid 2px $orange
+            border-bottom-width: 4px
+            font-family: bold
+    p
+        color: #ffff
+        font-family: medium 
+    ul
+       font-family: meduim 
+
+
 
