@@ -70742,4 +70742,354 @@ ul li .dropdown {
   color: white !important;
 }
 
+.menu ul li button {
+  border: solid 2px #ffa012;
+  border-radius: 30px !important;
+}
+.menu ul li button:hover {
+  background-color: #ffa012;
+  color: #ffffff;
+  border: solid 2px #ffa012;
+}
+.menu ul li button:focus {
+  background-color: #ffa012;
+  color: white;
+}
+
+.nav-link .nav-pills {
+  background-color: #ffffff;
+}
+
+.nav-link .nav-pills .active {
+  background-color: #ffa012 !important;
+  color: #ffffff !important;
+}
+
+h5, .h5 {
+  font-family: meduim;
+}
+
+.plat p {
+  font-family: comic;
+}
+
+.special h3, .special .h3 {
+  font-family: firstFont;
+  color: text;
+  text-align: center;
+}
+.special p {
+  font-family: meduim;
+  color: text;
+}
+
+.button:hover {
+  color: white;
+  background-color: #ffa012;
+}
+
+.events {
+  background-image: url(../images/events-bg.jpg);
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+  position: relative;
+}
+.events::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  background: #0e0d0d;
+  opacity: 0.5;
+}
+
+.right-events h3, .right-events .h3 {
+  font-family: firstFont;
+  color: #ffa012;
+}
+.right-events p span {
+  color: white;
+  border-bottom: solid 2px #ffa012;
+  border-bottom-width: 1px;
+}
+.right-events p {
+  color: rgba(255, 255, 255, 0.6901960784);
+  font-family: regular;
+}
+
+.events {
+  background-image: url(../images/testimonials-bg.jpg);
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.events::before {
+  content: "";
+  top: 0;
+  background: #0e0d0d;
+  opacity: 0.5;
+}
+
+.feed-back img {
+  border-radius: 50%;
+  border: solid 4px rgba(255, 255, 255, 0.5450980392);
+}
+.feed-back p {
+  color: #5f5950;
+  font-family: regular;
+}
+
+.map {
+  margin-bottom: 20px;
+}
+.map iframe {
+  width: 95vw;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 85vw;
+  padding: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(170, 168, 168, 0.2), 0 10px 20px 0 rgba(161, 157, 157, 0.19);
+}
+
+form {
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 85vw;
+  padding: 6vh 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form .form-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+}
+form .form-1 input {
+  padding: 1vh;
+  width: 50%;
+}
+form .form-2 input {
+  padding: 1vh;
+  width: 100%;
+}
+form .form-3 textarea {
+  padding-bottom: 20vh;
+  width: 100%;
+}
+
+i {
+  color: #ffa012;
+}
+
+.data {
+  display: flex !important;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 430px) {
+  iframe {
+    width: 100vw !important;
+    height: 50vh !important;
+  }
+  form {
+    flex-direction: row;
+    gap: 2vh;
+    width: 100%;
+  }
+  form .form-1 {
+    flex-direction: column;
+    gap: 3vw;
+  }
+  form .form-1 input {
+    padding: 1vh;
+    width: 50%;
+  }
+  form .form-2 input {
+    padding: 1vh;
+    width: 100%;
+  }
+  form .form-3 textarea {
+    padding-bottom: 20vh;
+    width: 100%;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3vh;
+  background-color: #35322d;
+  padding: 4vh 0vw;
+  color: #fff;
+  width: 98;
+}
+.footer h3, .footer .h3 {
+  color: #ffb03b;
+}
+.footer .footer-icons i {
+  border-radius: 50%;
+  background-color: #645c5c;
+  padding: 8px 10px;
+}
+.footer .footer-icons i:hover {
+  background-color: #ffb03b;
+}
+
+.gallery {
+  padding-bottom: 10px;
+}
+.gallery p {
+  width: 40vw;
+}
+
+.gallery-section {
+  justify-content: center;
+}
+.gallery-section div {
+  overflow: hidden;
+}
+.gallery-section img {
+  transition: all 0.4s ease;
+}
+.gallery-section img:hover {
+  transform: scale(1.2);
+}
+
+.EventsSection {
+  background-image: url(../img/events-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 15vh;
+  position: relative;
+}
+.EventsSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.47);
+}
+
+.ind {
+  width: 10px !important;
+  height: 10px !important;
+}
+.ind:focus {
+  background-color: #ffa012;
+}
+
+.chefs {
+  background-image: url(../images/chefs-bg.jpg);
+  position: relative;
+  height: 100vh;
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.chefs::before {
+  content: "";
+  top: 0;
+  background: rgba(14, 13, 13, 0.0745098039);
+  opacity: 0.5;
+  z-index: -1;
+  position: absolute;
+}
+
+@media (max-width: 430px) {
+  .hide ul {
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none !important;
+    z-index: 999;
+    transition: 1s;
+    top: 10%;
+    left: 0 !important;
+  }
+  .hide #checkbox {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 99999 !important;
+  }
+  .hide #Check:checked ~ .hide {
+    display: flex !important;
+  }
+}
+.btn2 {
+  display: flex;
+  width: 30%;
+  height: 10%;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about div video {
+  width: 100%;
+}
+.about div .description {
+  width: 100%;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+  width: 90%;
+  height: 40%;
+}
+
+.table {
+  flex-direction: column;
+}
+
+.gastro {
+  flex-direction: column;
+  width: 100%;
+}
+
+.left-gastro {
+  flex-direction: column;
+  width: 100%;
+}
+
 /*# sourceMappingURL=app.css.map */
