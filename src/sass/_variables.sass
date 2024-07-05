@@ -4,6 +4,7 @@
 
 $orange: #ffa012
 $text:#5f5950
+
 $bg:#fffaf3
 
 $mycolors: ("orange": $orange, "text": $text,"bg": $bg)
@@ -14,6 +15,13 @@ $spacer: 1vh
 $spacers: (0:0)
 @for $i from 1 through 150
     $spacers: map-merge( $spacers, ($i: ($i * $spacer) ))
+
+
+
+// $position: 1
+// $$position-values: (0:0)
+// @for $i from 1 through 150
+//     $$position-values: map-merge( $$position-values, ($i: ($i * $position) ))
 
 
 $fs: 1px
