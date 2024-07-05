@@ -70667,10 +70667,6 @@ textarea.form-control-lg {
   src: url(../../publicf/onts/Poppins-medium.ttf);
 }
 @font-face {
-  font-family: bold;
-  src: url(../../publicf/onts/Poppins-bold.ttf);
-}
-@font-face {
   font-family: comic;
   src: url(../../public/fonts/ComicNeue-Light.ttf);
 }
@@ -70755,10 +70751,6 @@ ul li .dropdown {
   color: #ffffff;
   border: solid 2px #ffa012;
 }
-.menu ul li button:focus {
-  background-color: #ffa012;
-  color: white;
-}
 
 .nav-link .nav-pills {
   background-color: #ffffff;
@@ -70785,63 +70777,6 @@ h5, .h5 {
 .special p {
   font-family: meduim;
   color: text;
-}
-
-.button:hover {
-  color: white;
-  background-color: #ffa012;
-}
-
-.events {
-  background-image: url(../images/events-bg.jpg);
-  background-position: cover;
-  background-attachment: fixed;
-  background-size: 100%;
-  position: relative;
-}
-.events::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  background: #0e0d0d;
-  opacity: 0.5;
-}
-
-.right-events h3, .right-events .h3 {
-  font-family: firstFont;
-  color: #ffa012;
-}
-.right-events p span {
-  color: white;
-  border-bottom: solid 2px #ffa012;
-  border-bottom-width: 1px;
-}
-.right-events p {
-  color: rgba(255, 255, 255, 0.6901960784);
-  font-family: regular;
-}
-
-.events {
-  background-image: url(../images/testimonials-bg.jpg);
-  background-position: cover;
-  background-attachment: fixed;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.events::before {
-  content: "";
-  top: 0;
-  background: #0e0d0d;
-  opacity: 0.5;
-}
-
-.feed-back img {
-  border-radius: 50%;
-  border: solid 4px rgba(255, 255, 255, 0.5450980392);
-}
-.feed-back p {
-  color: #5f5950;
-  font-family: regular;
 }
 
 .map {
