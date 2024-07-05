@@ -8,8 +8,12 @@
                     background-color: $orange
                     color: #ffffff
                     border: solid 2px $orange
+                &:focus
+                    background-color: $orange
+                    color: white
 .nav-link .nav-pills
     background-color: #ffffff
+  
 
 .nav-link .nav-pills .active
     background-color: $orange !important
@@ -33,3 +37,66 @@ h5
         font-family: meduim 
         color: text
 
+.button
+    &:hover
+        color: white
+        background-color: $orange
+
+.events
+    background-image: url(../images/events-bg.jpg)
+    
+    background-position: cover
+    background-attachment: fixed
+    background-size: 100%
+
+    position: relative
+    
+    &::before
+        content: ""
+        position: absolute
+      
+        top: 0
+        background: #0e0d0d
+        opacity: 0.5
+
+.right-events
+    h3
+        font-family: firstFont
+        color: $orange
+    p
+        span
+            color: white
+            border-bottom: solid 2px $orange
+            border-bottom-width: 1px
+    p
+        color: #ffffffb0
+        font-family: regular
+
+.events
+    background-image: url(../images/testimonials-bg.jpg)
+    // height: 100vh
+    background-position: cover
+    background-attachment: fixed
+    background-size: 100%
+    background-repeat: no-repeat
+    // position: relative
+    
+    &::before
+        content: ""
+        // position: absolute
+        // height: 100%
+        // width: 100%
+        top: 0
+        background: #0e0d0d
+        opacity: 0.5
+.feed-back
+    img
+        border-radius: 50%
+        border: solid 4px #ffffff8b
+    p
+        color: $text
+        font-family: regular
+
+
+        
+    
